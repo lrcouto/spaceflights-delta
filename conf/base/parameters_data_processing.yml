@@ -1,0 +1,7 @@
+delta_table_configs:
+  - csv_path: "data/01_raw/companies.csv"
+    delta_table_path: "data/delta/companies"
+  - csv_path: "data/01_raw/reviews.csv"
+    delta_table_path: "data/delta/reviews"
+  - csv_path: "data/01_raw/shuttles.xlsx"
+    delta_table_path: "data/delta/shuttles"
